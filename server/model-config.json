@@ -45,11 +45,11 @@
   },
   "Order": {
     "dataSource": "db",
-    "public": true
+    "public": false
   },
   "Seat": {
     "dataSource": "db",
-    "public": true
+    "public":  false
   },
   "Address": {
     "dataSource": "db",
