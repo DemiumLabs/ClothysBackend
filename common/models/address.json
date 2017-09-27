@@ -1,0 +1,60 @@
+{
+  "name": "Address",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "addressName": {
+      "type": "string"
+    },
+    "addressLine1": {
+      "type": "string"
+    },
+    "addressLine2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "region": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true,
+      "default": "España"
+    },
+    "postalCode": {
+      "type": "string",
+      "required": true
+    },
+    "position": {
+      "type": "position",
+      "required": true
+    },
+    "addressDetails": {
+      "type": "string"
+    },
+    "observations": {
+      "type": "string"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "contactMail": {
+      "type": "string"
+    },
+    "contactPhone": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+  },
+  "acls": [],
+  "methods": {}
+}
