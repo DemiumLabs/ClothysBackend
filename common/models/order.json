@@ -8,6 +8,16 @@
   "properties": {},
   "validations": [],
   "relations": {
+    "item": {
+      "type": "belongsTo",
+      "model": "Item",
+      "foreignKey": ""
+    },
+    "customer": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": ""
+    }
   },
   "acls": [],
   "methods": {}

@@ -8,6 +8,26 @@
   "properties": {},
   "validations": [],
   "relations": {
+    "items": {
+      "type": "hasMany",
+      "model": "Item",
+      "foreignKey": ""
+    },
+    "orders": {
+      "type": "hasMany",
+      "model": "Order",
+      "foreignKey": ""
+    },
+    "seats": {
+      "type": "hasMany",
+      "model": "Seat",
+      "foreignKey": ""
+    },
+    "addresses": {
+      "type": "hasOne",
+      "model": "Address",
+      "foreignKey": ""
+    }
   },
   "acls": [],
   "methods": {}

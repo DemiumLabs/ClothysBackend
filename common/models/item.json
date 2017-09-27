@@ -26,6 +26,16 @@
   },
   "validations": [],
   "relations": {
+    "orders": {
+      "type": "hasOne",
+      "model": "Order",
+      "foreignKey": ""
+    },
+    "taxonomy": {
+      "type": "belongsTo",
+      "model": "Taxonomy",
+      "foreignKey": ""
+    }
   },
   "acls": [],
   "methods": {}

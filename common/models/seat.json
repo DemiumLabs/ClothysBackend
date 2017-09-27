@@ -5,9 +5,30 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "price": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "buyer": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": ""
+    },
+    "seller": {
+      "type": "belongsTo",
+      "model": "Customer",
+      "foreignKey": ""
+    },
+    "order": {
+      "type": "belongsTo",
+      "model": "Order",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
