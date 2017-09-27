@@ -22,6 +22,9 @@
     "Price": {
       "type": "string",
       "required": true
+    },
+    "Position": {
+      "type": "GeoPoint"
     }
   },
   "validations": [],
