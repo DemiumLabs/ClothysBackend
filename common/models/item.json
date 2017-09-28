@@ -25,6 +25,10 @@
     },
     "Position": {
       "type": "GeoPoint"
+    },
+    "isSelled": {
+      "type":"boolean",
+      "default": false
     }
   },
   "validations": [],
