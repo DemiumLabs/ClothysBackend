@@ -7,7 +7,7 @@
   },
   "properties": {
     "price": {
-      "type": "string",
+      "type": "number",
       "required": true
     }
   },
