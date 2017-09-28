@@ -14,4 +14,16 @@ module.exports = function(Order) {
     });
   });
 
+  Order.observe('after save', function(ctx,next){
+    if(ctx.isNewInstance){
+      let Seat = Order.app.models.Seat;
+
+      ctx.instance.item((err,item) => {
+        console.log(item);
+        Seat.create({price : item.Price, buyerId: ctx.instance.customerId, sellerId: item.customerId}).then((result) => {console.log(result);next();});
+      });
+    }
+
+  });
+
 };

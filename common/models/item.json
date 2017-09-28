@@ -20,7 +20,7 @@
       "required": true
     },
     "Price": {
-      "type": "string",
+      "type": "number",
       "required": true
     },
     "Position": {

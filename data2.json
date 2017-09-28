@@ -7,8 +7,8 @@
     "Role": 1,
     "Taxonomy": 1,
     "Item": 2,
-    "Order": 3,
-    "Seat": 2,
+    "Order": 5,
+    "Seat": 3,
     "Address": 1,
     "Customer": 2
   },
@@ -22,13 +22,14 @@
     "Role": {},
     "Taxonomy": {},
     "Item": {
-      "1": "{\"Description\":\"string\",\"Title\":\"string\",\"Image\":\"string\",\"Price\":\"string\",\"Position\":{\"lat\":0,\"lng\":0},\"taxonomyId\":0,\"customerId\":1,\"isSelled\":true,\"id\":1}"
+      "1": "{\"Description\":\"string\",\"Title\":\"string\",\"Image\":\"string\",\"Price\":1000,\"Position\":{\"lat\":0,\"lng\":0},\"taxonomyId\":0,\"customerId\":1,\"isSelled\":true,\"id\":1}"
     },
     "Order": {
-      "2": "{\"itemId\":1,\"customerId\":1,\"id\":2}"
+      "4": "{\"itemId\":1,\"customerId\":1,\"id\":4}"
     },
     "Seat": {
-      "1": "{\"price\":1000,\"buyerId\":1,\"id\":1}"
+      "1": "{\"price\":1000,\"buyerId\":1,\"id\":1}",
+      "2": "{\"price\":1000,\"buyerId\":1,\"sellerId\":1,\"id\":2}"
     },
     "Address": {},
     "Customer": {
