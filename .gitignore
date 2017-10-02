@@ -18,3 +18,5 @@ coverage
 node_modules
 npm-debug.log
 data.json
+data2.json
+package-lock.json

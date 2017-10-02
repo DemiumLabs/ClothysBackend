@@ -3,5 +3,10 @@
     "name": "db",
     "connector": "memory",
     "file":"data2.json"
+  },
+  "taxonomies": {
+    "name": "db",
+    "connector": "memory",
+    "file":"taxonomies.json"
   }
 }

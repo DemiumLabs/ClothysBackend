@@ -1,0 +1,15 @@
+{
+  "ids": {
+    "Taxonomy": 7
+  },
+  "models": {
+    "Taxonomy": {
+      "1": "{\"Category\":\"Zapatillas chico\",\"id\":1}",
+      "2": "{\"Category\":\"Zapatillas chica\",\"id\":2}",
+      "3": "{\"Category\":\"Pantalones chico\",\"id\":3}",
+      "4": "{\"Category\":\"Pantalones chica\",\"id\":4}",
+      "5": "{\"Category\":\"Camisetas chico\",\"id\":5}",
+      "6": "{\"Category\":\"Camisetas chica\",\"id\":6}"
+    }
+  }
+}
