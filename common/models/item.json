@@ -7,23 +7,23 @@
     "validateUpsert": true
   },
   "properties": {
-    "Description": {
+    "description": {
       "type": "string",
       "required": true
     },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Image": {
+    "image": {
       "type": "string",
       "required": true
     },
-    "Price": {
+    "price": {
       "type": "number",
       "required": true
     },
-    "Position": {
+    "position": {
       "type": "GeoPoint"
     },
     "isSelled": {
