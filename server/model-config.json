@@ -36,7 +36,7 @@
     "public": false
   },
   "Taxonomy": {
-    "dataSource": "db",
+    "dataSource": "taxonomies",
     "public": true
   },
   "Item": {
