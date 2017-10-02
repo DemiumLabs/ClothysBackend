@@ -45,7 +45,7 @@
   },
   "Order": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Seat": {
     "dataSource": "db",
