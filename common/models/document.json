@@ -1,0 +1,44 @@
+{
+  "name": "Document",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": false
+  },
+  "mixins": {
+    "TimeStamp": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "mime": {
+      "type": "string",
+      "required": true
+    },
+    "file": {
+      "type": "string",
+      "required": true
+    },
+    "size": {
+      "type": "string",
+      "required": false
+    },
+    "version": {
+      "type": "number",
+      "required": true,
+      "default":0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "shipOrder": {
+      "type": "belongsTo",
+      "model": "ShipOrder",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

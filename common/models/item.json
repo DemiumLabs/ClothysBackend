@@ -16,7 +16,7 @@
       "required": true
     },
     "image": {
-      "type": "string",
+      "type": "Document",
       "required": true
     },
     "price": {
